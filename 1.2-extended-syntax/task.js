@@ -36,6 +36,6 @@ function askDrink(name,dateOfBirthday){
     let today = new Date()
     let today_year = today.getFullYear()
     let drinkOrNot = today_year - old
-    let result = drinkOrNot >= 21 ? `Не желаете ли олд-фэшн, ${name}` : `Сожалею, ${name}, но я не могу вам продать алкоголь. Могу предложить вам замечательный клюквенный компот!`
+    let result = drinkOrNot >= 21 ? `Не желаете ли олд-фэшн, ${name}?` : `Сожалею, ${name}, но я не могу вам продать алкоголь. Могу предложить вам замечательный клюквенный компот!`
     return result;
 }
